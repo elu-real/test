@@ -636,17 +636,18 @@ button.button_dd4f85 /* small buttons */,
 [class^='wordmarkWindows']::after {
     content: var(--corner-text);
     display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scaleX(1.2);
+    text-align: center; /* Centers the text horizontally */
     height: 16px;
     line-height: 16px;
     font-family: var(--font);
     font-size: 13px;
     font-weight: 900;
     color: var(--text-5);
+    transform: scaleX(1.2);
+    margin-left: 6px;
+    width: 100%; /* Ensures the ::after element takes full width */
 }
+
 
 
 /* top bar height */
