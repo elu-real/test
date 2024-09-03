@@ -634,18 +634,17 @@ button.button_dd4f85 /* small buttons */,
 	display: none;
 }
 [class^='wordmarkWindows']::after {
-    content: var(--corner-text);
-    display: block;
-    text-align: center; /* Centers the text horizontally */
-    height: 16px;
-    line-height: 16px;
-    font-family: var(--font);
-    font-size: 13px;
-    font-weight: 900;
-    color: var(--text-5);
-    transform: scaleX(1.2);
-    margin-left: 6px;
-    width: 100%; /* Ensures the ::after element takes full width */
+	content: var(--corner-text);
+	display: block;
+	position: relative;
+	height: 16px;
+	line-height: 16px;
+	font-family: var(--font);
+	font-size: 13px;
+	font-weight: 900;
+	color: var(--text-5);
+	transform: scaleX(1.2);
+	margin-left: 6px;
 }
 
 
